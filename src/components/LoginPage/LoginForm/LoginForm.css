@@ -1,0 +1,87 @@
+.formContainer {
+    width: 20vw;
+    min-width: 15rem;
+    position: fixed;
+    top: 33vh;
+    right: 32vw;
+    text-align: center;
+}
+
+.delimiter {
+    margin-bottom: max(0.7rem, 1.6vh);
+}
+
+.sso {
+    fill: #3b5998;
+    margin-bottom: 0.2rem;
+    margin-top: -1rem;
+}
+
+.FacebookSSO {
+    fill: #3b5998;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.GoogleSSO {fill: #DB4437;
+    margin-left: 1rem;
+    width: 2.8rem;
+}
+
+.textInput {
+    height: 2.5rem;
+    width: 94%;
+    margin-top: max(0.5rem, 1.4vh);
+    padding-left: 5%;
+    color: rgba(9,3,2, 0.5);
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1.3rem;
+    background-color: #FBFAFA;
+    border: 0.2rem solid rgba(9,3,2, 0.5);
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.textInput:focus {
+    border-color: #DF5C32; /* green: 21897E */
+}
+
+.singleOutTextInput {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.buttonInput {
+    margin-top: 2rem;
+    width: 43%;
+    height: 3.5rem;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.3rem;
+    color: #21897E;
+    background-color: #FBFBF2;
+    border: none;
+    border-radius: 3rem;
+    float:left;
+    cursor: pointer;
+}
+.buttonInputLeft {
+    margin-left:5%;
+}
+.buttonInputRight {
+    margin-left:4%;
+}
+
+.buttonInput:not(.activeFormButton):hover {
+    opacity: 0.9;
+}
+
+/* Make this the live button page (signup on signup page..) */
+.activeFormButton {
+    color: #FBFBF2;
+    background-color: #21897E;
+}
+.activeFormButton:hover {
+    opacity: 0.9;
+}
