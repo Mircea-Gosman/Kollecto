@@ -3,5 +3,6 @@ export default {
         MAIN: '/main',
         LOGIN: '/login',
         PREFERENCES: '/preferences',
+        TRANSACTION: '/transaction'
     }
 };

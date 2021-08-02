@@ -1,0 +1,29 @@
+.transactionBill-container {
+    position: fixed;
+    left: 17vw;
+    top: 20vw;
+    width: 66vw;
+    height: 25vw;
+    background-color: rgba(241, 241, 232, 0.9);
+    border: #32ABDF 0.3rem solid;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+
+.transactionBill-closeButton  {
+    width: 3vw;
+    height: 3vw;
+    margin-left: -1.2vw;
+    margin-top: -1.2vw;
+    border-radius: 100%;
+    background-color: #DF5C32;
+}
+.transactionBill-closeButton:hover {
+    cursor: pointer;
+}
+
+.transactionBill-closeButton-svg {
+    width: 60%;
+    margin-top: 20%;
+    fill: #FBFBF2;
+}

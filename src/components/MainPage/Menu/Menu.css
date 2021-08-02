@@ -1,0 +1,43 @@
+.activeMenuContainer {
+    width: max(10vw, 7rem);
+    height: max(10.5vw, 9rem);
+    position: fixed;
+    right: 12vw;
+    border-radius: max(3vw, 2rem);
+    margin-top: -3.5rem;
+}
+.activeMenuContainer.market {
+    background-color: #DF5C32;
+}
+.activeMenuContainer.inventory {
+    background-color: #21897E;
+}
+
+.marketSVG {
+    height: max(4vw, 3rem);
+    width: 80%;
+    margin-top: max(4.5vw, 4.5rem);
+    margin-left: 10%;
+    fill: #FBFAFA;
+}
+.passiveMenuContainer {
+    width: max(9vw, 4rem);
+    height: max(10.5vw, 5rem);
+    position: fixed;
+    top: max(3vh, 3rem);
+    right: 4.5vw;
+    border: 0.5rem solid #A997DF;
+    border-radius: 2rem;
+    background-color: #F1F1E8;
+}
+.passiveMenuContainer:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.inventorySVG {
+    height: max(7vw, 3rem);
+    width: 70%;
+    margin-top: max(2vw, 1.2rem);
+    margin-left: 15%;
+    fill: #A997DF;
+}

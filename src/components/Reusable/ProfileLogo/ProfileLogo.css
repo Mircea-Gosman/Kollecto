@@ -1,0 +1,74 @@
+.profileContainer.small {
+    margin-top: 5%;
+    margin-left: 25%;
+}
+.profileContainer.small.transaction {
+    margin-top: -22%;
+    margin-left: 5%;
+}
+.profileContainer.large {
+    width: 70%;
+    margin-top: max(4vw, 3rem);
+    margin-left: 20%;
+}
+
+.profileBackground {
+    position:absolute;
+    z-index: 0;
+}
+.profileBackground.small {
+    width: 18%;
+}
+.profileBackground.small.transaction {
+    width: 30%;
+}
+.profileBackground.large {
+    width: 60%;
+}
+.profileBackground.wallet {
+    margin-left: 5%;
+}
+.profileBackground.platform {
+    margin-left: 27%;
+}
+
+.profileButton {
+    position:absolute;
+    z-index: 1;
+}
+.profileButton.small {
+    width: 10%;
+    fill: #DF5C32;
+}
+.profileButton.small.transaction {
+    width: 17%;
+    margin-left: 6.5%;
+    margin-top: 4.25%;
+    transform: scale(0.9);
+    fill: none;
+}
+.profileButton.large {
+    width: 35%;
+    margin-left: 12.5%;
+    margin-top: 7%;
+}
+.profileButton.wallet {
+    margin-left: 9%;
+    margin-top: 4.5%;
+}
+.profileButton.platform {
+    margin-left: 33.5%;
+    margin-top: 4%;
+    width: 6%;
+}
+.profileButton.small:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.profileButton.small.transaction {
+    cursor: auto;
+}
+.profileButton.large:hover {
+    transform: rotate(15deg);
+    cursor: pointer;
+}

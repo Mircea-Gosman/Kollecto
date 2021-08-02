@@ -1,0 +1,79 @@
+.searchResult-container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0% 4% 0% 4%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.searchResult-nft-container {
+    width: 70%;
+    height: 8vw;
+    border: #32ABDF 0.2rem solid;
+    border-radius: 1.5rem;
+    background-color: #F1F1E8;
+    overflow: hidden;
+    display: flex;
+}
+
+.searchResult-nft-image {
+    width: 40%;
+    height:100%;
+    background-color: lightgray;
+    border-right:#32ABDF 0.2rem solid;
+}
+
+.searchResult-nft-description {
+    box-sizing: border-box;
+    width: 60%;
+    height: 100%;
+    padding: 3% 3% 3% 5%;
+    display:grid;
+}
+
+.searchResult-nft-title {
+    font-weight: bold;
+    font-size: 1.1vw;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.searchResult-nft-date {
+    font-size: 1vw;
+    margin-top: 5%;
+    grid-row-start: 2;
+}
+
+.searchResult-nft-button-container {
+    display:block;
+}
+.searchResult-nft-button-container:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.searchResult-nft-button {
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 2%;
+    fill: #32ABDF;
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.searchResult-nft-button-text {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    text-align: center;
+    transform: translateY(-2.6vw);
+    font-size: 0.8vw;
+}
+
+.search-platformLogo{
+    width: 15%;
+    height: 50%;
+    margin-left: 4%;
+    margin-top: 4%;
+    fill-opacity: 0.8;
+}

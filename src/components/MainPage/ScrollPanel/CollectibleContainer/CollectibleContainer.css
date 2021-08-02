@@ -1,0 +1,66 @@
+.collectibleContainer-container {
+    box-sizing: border-box; /* This makes the padding & border be part of the width and height! */
+    width: 100%;
+    height: 18vw;
+    padding: 7%;
+    background-color: transparent;
+}
+.collectibleContainer-shaper {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border: 0.2rem  rgba(50, 171, 223,0.5) solid;
+    border-radius: 2rem 2rem 100% 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.collectibleContainer-shaper.inventory.left {
+    border-color: #DF5C32;
+}
+.collectibleContainer-shaper.inventory.middle {
+    border-color: #21897E;
+}
+.collectibleContainer-shaper.inventory.right {
+    border-color: #A997DF;
+}
+
+.collectibleContainer-image {
+    background-color: #F1F1E8;
+    width: 100%;
+    height:50%;
+}
+
+.collectibleContainer-button {
+    display:block;
+}
+.collectibleContainer-button:hover {
+    transform: scale(0.98);
+    cursor: pointer;
+}
+
+.collectibleContainer-button-svg {
+    fill: #32ABDF;
+    width: 80%;
+    margin-top: 6%;
+    cursor: pointer;
+    z-index: 0;
+}
+.collectibleContainer-button-svg.inventory.left {
+    fill: #DF5C32;
+}
+.collectibleContainer-button-svg.inventory.middle {
+    fill: #21897E;
+}
+.collectibleContainer-button-svg.inventory.right {
+    fill: #A997DF;
+}
+
+.collectibleContainer-button-text {
+    transform: translateY(-4.3vw);
+    color: #090302;
+    margin-top: 2.5%;
+    margin-left: -1.3%;
+    font-size: 1.7vw;
+    z-index: 1;
+    font-family: Signika SC; /* Add correct font from google fonts*/
+}

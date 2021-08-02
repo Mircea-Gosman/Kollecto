@@ -1,0 +1,19 @@
+.transactionAction {
+    position: fixed;
+    left: 30vw;
+    top: 7vw;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.rightKoyns {
+    right: -5rem;
+    top: -5vh;
+    height: 110vh;
+}
+
+.leftKoyns {
+    left: -2.6rem;
+    bottom: -3.4rem;
+    height: 50vh;
+}

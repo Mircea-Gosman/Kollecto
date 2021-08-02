@@ -1,0 +1,16 @@
+.transactionStatement-container {
+    position: fixed;
+    left: 35vw;
+    width: 30vw;
+    height: 4rem;
+    background-color: #DF5C32;
+    border-radius: 0rem 0rem 1.5rem 1.5rem;
+    text-align: center;
+}
+
+.transactionStatement {
+    font-size: 2vw;
+    line-height: 0px;
+    color: #FBFBF2;
+    font-weight: bold;
+}
