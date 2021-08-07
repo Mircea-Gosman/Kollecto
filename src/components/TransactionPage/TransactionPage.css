@@ -1,9 +1,25 @@
 .transactionAction {
     position: fixed;
-    left: 30vw;
-    top: 7vw;
+    left: 28vw;
+    top: 9vw;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3.2vw;
+}
+.transactionAction.Buying {
+    color: #32ABDF;
+    transform: translateX(0.4vw);
+}
+.transactionAction.Creating {
+    color: #DF5C32;
+    transform: translateX(-0.4vw);
+}
+.transactionAction.Sale {
+    color: #A997DF;
+    transform: translateX(-1vw);
+}
+.transactionAction.Selling {
+    color: #21897E;
+    transform: translateX(0.4vw);
 }
 
 .rightKoyns {

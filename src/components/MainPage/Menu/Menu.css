@@ -1,10 +1,9 @@
 .activeMenuContainer {
-    width: max(10vw, 7rem);
-    height: max(10.5vw, 9rem);
+    width: max(10vw, 5rem);
+    height: max(9vw, 4rem);
     position: fixed;
     right: 12vw;
-    border-radius: max(3vw, 2rem);
-    margin-top: -3.5rem;
+    border-radius: 0 0 max(3vw, 2rem) max(3vw, 2rem);
 }
 .activeMenuContainer.market {
     background-color: #DF5C32;
@@ -14,12 +13,16 @@
 }
 
 .marketSVG {
-    height: max(4vw, 3rem);
+    height: max(4vw, 2.2rem);
     width: 80%;
-    margin-top: max(4.5vw, 4.5rem);
+    margin-top: 2vw;
     margin-left: 10%;
     fill: #FBFAFA;
 }
+.marketSVG.activeInventory {
+    height: max(5vw, 2.5rem);
+}
+
 .passiveMenuContainer {
     width: max(9vw, 4rem);
     height: max(10.5vw, 5rem);

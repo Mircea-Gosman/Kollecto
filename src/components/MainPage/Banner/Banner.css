@@ -4,7 +4,7 @@
     position: fixed;
     top: 0vw;
     left: 0vw;
-    border-radius: 0px 0px 8rem 8rem;
+    border-radius: 0 0 max(3vw, 2rem) max(3vw, 2rem);
 }
 .bannerContainer.market {
     background-color: #DF5C32;

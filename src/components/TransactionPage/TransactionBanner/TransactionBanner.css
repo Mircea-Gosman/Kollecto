@@ -2,12 +2,18 @@
     position: fixed;
     left: 10vw;
     width: 15vw;
-    height: max(10.5vw, 9rem);
-    background-color: #DF5C32;
-    border-radius: 0rem 0rem 100% 100%;
+    height: max(9vw, 4rem);
+    border-radius: 0 0 max(3vw, 2rem) max(3vw, 2rem);
     display: flex;
     align-items: center;
 }
+.transactionBanner-container.market {
+    background-color: #DF5C32;
+}
+.transactionBanner-container.inventory {
+    background-color: #21897E;
+}
+
 
 .transactionBanner-balance {
     margin-left: 25%;

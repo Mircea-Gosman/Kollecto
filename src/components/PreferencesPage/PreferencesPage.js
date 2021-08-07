@@ -1,9 +1,17 @@
 import React from 'react';
 
+import ProfileSummary from "./ProfileSummary";
+import ProfilePreferences from "./ProfilePreferences";
+
+import "./PreferencesPage.css"
+
 function PreferencesPage() {
     return (
         <>
-            <div>Preferences</div>
+            <div className={"preferences-container"}>
+                <ProfileSummary/>
+                <ProfilePreferences/>
+            </div>
         </>
     );
 }

@@ -2,15 +2,21 @@
     position: fixed;
     left: 35vw;
     width: 30vw;
-    height: 4rem;
+    height: 4vw;
     background-color: #DF5C32;
-    border-radius: 0rem 0rem 1.5rem 1.5rem;
+    border-radius: 0rem 0rem 1.2rem 1.2rem;
     text-align: center;
+}
+.transactionStatement-container.market {
+    background-color: #DF5C32;
+}
+.transactionStatement-container.inventory {
+    background-color: #21897E;
 }
 
 .transactionStatement {
     font-size: 2vw;
     line-height: 0px;
     color: #FBFBF2;
-    font-weight: bold;
+    font-weight: 600;
 }

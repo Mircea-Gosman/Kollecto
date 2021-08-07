@@ -39,4 +39,9 @@
 
 body {
   background-color: #FBFBF2;
+  font-family: "Signika SC";
+}
+
+textarea:focus {
+  outline:none;
 }

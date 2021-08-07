@@ -1,0 +1,90 @@
+.ethereumTrade-container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.ethereumTrade-description {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.ethereumTrade-description > * {
+    box-sizing: border-box;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.ethereumTrade-description-koynLogo {
+    width: 15%;
+    height: 100%;
+}
+
+.ethereumTrade-description-arrow {
+    width: 10%;
+    height: 100%;
+    transform: scaleX(-1);
+    fill: #DF5C32;
+}
+ .ethereumTrade-description-arrow:hover {
+     cursor: pointer;
+     transform: scale(0.9) scaleX(-1);
+ }
+
+.ethereumTrade-description-arrow.fromEth {
+    transform: scaleX(1);
+    fill: #090302;
+}
+
+.ethereumTrade-description-value {
+    box-sizing: border-box;
+    width: 20%;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 700;
+    outline: none;
+    border:none;
+    border-bottom: #090302 0.1vw solid;
+    padding-bottom: 1%;
+    background-color: transparent;
+}
+.ethereumTrade-description-value::placeholder {
+    color:black;
+}
+.ethereumTrade-description-value.koynSideValue {
+    color: #DF5C32;
+    border-bottom-color: #DF5C32;
+}
+.ethereumTrade-description-value.koynSideValue::placeholder {
+    color: #DF5C32;
+}
+
+.ethereumTrade-description-ethereumLogo {
+    width: 10%;
+    height: 100%;
+}
+
+.ethereumTrade-button {
+    margin-top: 5%;
+    padding: 2% 6% 2% 6%;
+    border:none;
+    border-radius: 0.5vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: #FBFBF2;
+    background-color: #DF5C32;
+}
+.ethereumTrade-button:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}

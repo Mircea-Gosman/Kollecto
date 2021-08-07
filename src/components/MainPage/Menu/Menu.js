@@ -27,7 +27,7 @@ function Menu() {
             }
             <div className={`activeMenuContainer ${tradingEnvironment}`}>
                 {isMarket && <Market className={"marketSVG"}/>}
-                {!isMarket && <Inventory className={"marketSVG"}/>}
+                {!isMarket && <Inventory className={"marketSVG activeInventory"}/>}
             </div>
         </>
     );

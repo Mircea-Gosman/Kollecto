@@ -1,0 +1,78 @@
+.transactionHistoryLog-container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 9vw;
+    display: inline-flex;
+}
+
+.transactionHistoryLog-date {
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    width: 15%;
+    height: 100%;
+    font-size: 1.5vw;
+    /*border: #DF5C32 0.1vw solid;*/
+}
+
+.transactionHistoryLog-image {
+    display: inline-flex;
+    align-self: center;
+    margin-left: 5%;
+    width: 25%;
+    height: 80%;
+    background-color: #F1F1E8;
+    overflow: hidden;
+    border-radius: 0.3rem;
+}
+
+.transactionHistoryLog-description {
+    box-sizing: border-box;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    height: 100%;
+    /*border: #DF5C32 0.1vw solid;*/
+}
+
+.transactionHistoryLog-description-title {
+    font-size: 1.5vw;
+}
+
+.transactionHistoryLog-description-descriptors {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-1vw);
+}
+
+.transactionHistoryLog-description-descriptor-date {
+    font-size: 1.2vw;
+}
+
+.transactionHistoryLog-description-descriptor-svg {
+    width: 5vw;
+    height: 5vw;
+    transform: translateY(-0.3vw);
+    opacity: 0.7;
+}
+
+.transactionHistoryLog-pricing-container {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 15%;
+    height: 100%;
+    font-size: 1.2vw;
+    /*border: #DF5C32 0.1vw solid;*/
+}
+
+.transactionHistoryLog-pricing-svg {
+    width: 2vw;
+    height: 2vw;
+    transform: translateX(0.5vw);
+}

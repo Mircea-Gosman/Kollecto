@@ -6,6 +6,9 @@
     margin-top: -22%;
     margin-left: 5%;
 }
+.profileContainer.medium {
+    transform: translateX(10%) translateY(20vh);
+}
 .profileContainer.large {
     width: 70%;
     margin-top: max(4vw, 3rem);
@@ -21,6 +24,9 @@
 }
 .profileBackground.small.transaction {
     width: 30%;
+}
+.profileBackground.medium {
+    width: 80%;
 }
 .profileBackground.large {
     width: 60%;
@@ -46,6 +52,11 @@
     margin-top: 4.25%;
     transform: scale(0.9);
     fill: none;
+}
+.profileButton.medium {
+    width: 45%;
+    margin-left: 17%;
+    margin-top: 10.5%;
 }
 .profileButton.large {
     width: 35%;

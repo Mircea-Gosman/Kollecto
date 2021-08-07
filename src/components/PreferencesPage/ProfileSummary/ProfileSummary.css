@@ -1,0 +1,44 @@
+.profileSummary-container {
+    box-sizing: border-box;
+    display: block;
+    width: 22vw;
+    height: 100vh;
+    background-color: #090302;
+    z-index: 1;
+}
+
+.profileSummary-backButton {
+    width: 15%;
+    transform:  translateX(2vw) translateY(2vw);
+    fill: #DF5C32;
+}
+.profileSummary-backButton:hover {
+    transform:  translateX(2vw) translateY(2vw) scale(0.9);
+    cursor: pointer;
+}
+
+.profileSummary-balance {
+    text-align: center;
+    transform: translateY(46vh);
+    font-size: 3vw;
+    color: #FBFBF2;
+}
+
+.profileSummary-logoutButton {
+    box-sizing: border-box;
+    width: 50%;
+    height: 3.5rem;
+    transform: translateY(60vh) translateX(5.5vw);
+    font-size: 2vw;
+    background-color: #FBFBF2;
+    border: #DF5C3280 0.5vw solid;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.profileSummary-logoutButton:hover {
+    cursor: pointer;
+    transform: translateY(60vh) translateX(5.5vw) scale(0.9);
+}
+.profileSummary-logoutButton:active {
+    color: black;
+}
