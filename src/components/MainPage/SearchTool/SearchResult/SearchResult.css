@@ -32,7 +32,7 @@
 }
 
 .searchResult-nft-title {
-    font-weight: bold;
+    font-weight: 500;
     font-size: 1.1vw;
     grid-column-start: 1;
     grid-column-end: 3;

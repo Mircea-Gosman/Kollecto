@@ -13,3 +13,10 @@
     bottom: -3.4rem;
     height: 50vh;
 }
+
+.leftKoyns > *.coloredKoyns {
+    fill: #DF5C32;
+}
+.leftKoyns > *.coloredKoyns-stroke{
+    stroke: #DF5C32;
+}

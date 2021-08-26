@@ -9,16 +9,24 @@ import { ReactComponent as Koyn } from '../../../assets/koynLogo.svg';
 import './Banner.css';
 import {useHistory} from "react-router-dom";
 import constants from "../../../utils/constants";
-import { useSelector } from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import { selectEnvironment } from "../../../reducers/tradingEnvironmentSlice";
+import {selectSocialPlatform, setSocialPlatform} from "../../../reducers/socialPlatform";
 
 function Banner() {
     const history = useHistory();
+    const dispatch = useDispatch();
     const tradingEnvironment = useSelector(selectEnvironment);
+    const socialPlatform = useSelector(selectSocialPlatform);
     const walletBalance = 2.9;
 
     const redirectPreferences = () => {
         history.push(constants.url.PREFERENCES);
+    };
+
+    const togglePlatform = () => {
+        const newPlatform = !socialPlatform.generic ? {generic: "standby", specific: socialPlatform.specific} : {generic: "", specific: socialPlatform.specific};
+        dispatch(setSocialPlatform(newPlatform));
     };
 
     return (
@@ -29,7 +37,7 @@ function Banner() {
                     <p className={"balance-value"}>{walletBalance}</p>
                 </div>
                 <ProfileLogo Logo={Wallet} variant={"small wallet"}/>
-                <ProfileLogo Logo={Platform} variant={"small platform"}/>
+                <ProfileLogo Logo={Platform} variant={"small platform"} onClick={togglePlatform}/>
             </div>
 
         </>
