@@ -1,0 +1,24 @@
+.transactionBanner-container {
+    position: fixed;
+    left: 10vw;
+    width: 15vw;
+    height: max(9vw, 4rem);
+    border-radius: 0 0 max(3vw, 2rem) max(3vw, 2rem);
+    display: flex;
+    align-items: center;
+}
+.transactionBanner-container.market {
+    background-color: #DF5C32;
+}
+.transactionBanner-container.inventory {
+    background-color: #21897E;
+}
+
+
+.transactionBanner-balance {
+    margin-left: 25%;
+    font-size: 2vw;
+    line-height: 0px;
+    color: #FBFBF2;
+    font-weight: bold;
+}

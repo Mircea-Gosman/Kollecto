@@ -1,0 +1,11 @@
+.scrollList {
+    background-color: transparent;
+    width: 25vw;
+    height: 67vh;
+}
+.scrollList.inventory {
+    overflow-y: scroll;
+}
+.scrollList.inventory::-webkit-scrollbar {
+    display: none;
+}

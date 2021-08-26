@@ -1,0 +1,96 @@
+.userMenu-container {
+    box-sizing: border-box;
+    width: 16vw;
+    height: 7vw;
+    position: fixed;
+    top: 28vw;
+    left: 2vw;
+    display: flex;
+    align-items: center;
+    padding: 0.2vw;
+    border: #DF5C32 0.2vw solid;
+    border-radius: 1.2rem;
+}
+
+.userMenu-instagram{
+    opacity: 0.6;
+    margin-top: 1.1vw;
+    margin-left: 1.1vw;
+    height: 9vw;
+    width: 9vw;
+}
+.userMenu-instagram.instagram {
+    opacity: 1;
+}
+.userMenu-instagram:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.userMenu-youtube{
+    opacity: 0.6;
+    margin-left: -2.5vw;
+    height: 6.7vw;
+    width: 6.7vw;
+    transform: scaleX(0.8);
+}
+.userMenu-youtube.youtube {
+    opacity: 1;
+}
+.userMenu-youtube:hover {
+    transform: scaleX(0.7) scaleY(0.9);
+    cursor: pointer;
+}
+
+.userMenuAsset-container {
+    box-sizing: border-box;
+    width: 16vw;
+    height: 12vw;
+    position: fixed;
+    top: 36vw;
+    left: 2vw;
+    border: #DF5C32 0.2vw solid;
+    border-radius: 1.2rem;
+    overflow: hidden;
+}
+
+.userMenuAsset-title-container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 2vw;
+    padding: 2vw;
+    display: inline-flex;
+    align-items: center;
+}
+
+.userMenuAsset-container-YoutubeSVG {
+    height: 2vw;
+}
+
+.userMenuAsset-title {
+    font-size: 1.2vw;
+}
+
+.youtubeChannel-container {
+    box-sizing: border-box;
+    height: 10vw;
+    width: 100%;
+    margin-top: -1vw;
+    padding-left: 2vw;
+    overflow-y: scroll;
+}
+.youtubeChannel-container::-webkit-scrollbar {
+    display: none;
+}
+
+.youtubeChannel-selector {
+    box-sizing: border-box;
+    height: 2vw;
+    width: calc(100% - 2vw);
+    border-bottom: #D9D9D9 0.1vw solid;
+    text-align: left;
+}
+.youtubeChannel-selector:hover {
+    cursor: pointer;
+    color: #DF5C32;
+}

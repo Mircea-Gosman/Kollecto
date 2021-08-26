@@ -1,0 +1,82 @@
+.profilePreferences-container {
+    box-sizing: border-box;
+    width: 78vw;
+    height: 100vh;
+    padding: 4vw;
+    background-color: #FBFBF2;
+}
+
+.profilePreferences-section {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    /*border: #DF5C32 0.3vw solid;*/
+    border-radius: 1.2rem;
+    overflow: hidden;
+    background-color: #FBFBF2;
+}
+
+.profilePreferences-section-nav {
+    box-sizing: border-box;
+    display: flex;
+    width: 98%;
+    height: 20%;
+    margin: 1% 1% 0 1%;
+}
+
+.profilePreferences-section-nav-item-button {
+    box-sizing: border-box;
+    width: 20%;
+    height: 70%;
+    display: flex;
+    justify-self: right;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3vw;
+    color: #DF5C32;
+    font-weight: 500;
+}
+.profilePreferences-section-nav-item-button.activeNavItem {
+    text-decoration: underline;
+    text-underline-offset: 0.8vw;
+    color: #090302;
+    font-size: 1.5vw;
+}
+.profilePreferences-section-nav-item-button.activeNavItem:hover {
+    transform: scale(1);
+    cursor: auto;
+}
+
+.profilePreferences-section-nav-item-button:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.ethereumTradeKoyns {
+    position:fixed;
+    right: -6vw;
+    bottom: -6vw;
+    width: 30vw;
+    transform: scaleX(-1);
+}
+.ethereumTradeKoyns > *.coloredKoyns {
+    fill: black;
+}
+.ethereumTradeKoyns > *.coloredKoyns-stroke {
+    stroke: black;
+}
+
+.ethereumTradeKoyns-left {
+    left: 16vw;
+    transform: scaleX(1);
+    z-index: 0;
+}
+.ethereumTradeKoyns-left > *.coloredKoyns {
+    fill: #DF5C32;
+}
+.ethereumTradeKoyns-left > *.coloredKoyns-stroke{
+    stroke: #DF5C32;
+}

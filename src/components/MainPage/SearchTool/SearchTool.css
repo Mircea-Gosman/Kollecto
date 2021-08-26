@@ -1,0 +1,66 @@
+.searchBarContainer {
+    width: 45vw;
+    min-width: 15rem;
+    position: fixed;
+    top: max(11vh, 3rem);
+    right: 27vw;
+}
+
+.searchInput {
+    height: 3rem;
+    width: calc(100% - 3.5rem - 4vw);
+    padding-left: 5%;
+    color: rgba(9,3,2, 0.5);
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1.3rem;
+    background-color: #FBFAFA;
+    border: 0.3rem solid #DF5C32;
+    border-radius: 0.8rem;
+    outline: none;
+    margin-bottom: 8%;
+}
+.searchInput.market {
+    border-color: #DF5C32;
+}
+.searchInput.inventory {
+    border-color: #21897E;
+}
+.searchInput:focus {
+    transform: scaleY(1.2);
+    /* black: border-color: rgba(9,3,2, 0.5); green: 21897E */
+}
+
+.searchButton {
+    width: 3.5rem;
+    height: 3.5rem;
+    float:right;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.searchButton.market {
+    background-color: #DF5C32;
+}
+.searchButton.inventory {
+    background-color: #21897E;
+}
+.searchButton:hover {
+    /*opacity: 0.9;*/
+    transform: scale(0.9);
+}
+
+.searchIcon {
+    width: 60%;
+    margin-left: 12%;
+    margin-top: 10%;
+}
+
+.searchResults-container {
+    overflow-y: scroll;
+    height: 70vh;
+}
+
+.searchResults-container::-webkit-scrollbar {
+    display: none;
+}

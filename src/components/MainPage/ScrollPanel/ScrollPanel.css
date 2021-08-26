@@ -1,0 +1,28 @@
+.scrollPanel {
+    background-color: transparent;
+    display:flex;
+    flex-direction: row;
+    position: fixed;
+    top: 33vh;
+    left: 23vw;
+    width: 75vw;
+    height: 66.4vh;
+}
+.scrollPanel.market {
+    overflow-y: scroll;
+}
+.scrollPanel.market::-webkit-scrollbar {
+    display: none;
+}
+
+.separator {
+    position: fixed;
+    transform: translateX(25vw);
+    height: 40vh;
+    width: 0.1rem;
+    margin-top: 6vh;
+    background-color: #D9D9D9;
+}
+.separator.separator_right {
+    transform: translateX(50vw);
+}

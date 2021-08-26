@@ -1,0 +1,33 @@
+.bannerContainer {
+    width: 20vw;
+    height: max(26vw, 11rem); /*41 25*/
+    position: fixed;
+    top: 0vw;
+    left: 0vw;
+    border-radius: 0 0 max(3vw, 2rem) max(3vw, 2rem);
+}
+.bannerContainer.market {
+    background-color: #DF5C32;
+}
+.bannerContainer.inventory {
+    background-color: #21897E;
+}
+
+.balanceContainer {
+    width: 100%;
+    margin-top: calc(2rem + 13vw);
+    text-align: center;
+}
+
+.profileLogoContainer {
+    width: 70%;
+    margin-left: 20%;
+    margin-top: max(4vw, 3rem);
+}
+
+.balance-value {
+    font-size:  2.2vw;
+    color: #FBFBF2;
+    margin-top: 5vw;
+}
+
