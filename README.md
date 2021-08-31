@@ -60,7 +60,7 @@ The UI is currently capable to use the Youtube Data V3 API to log in an user & f
 
 | Search Tool Open View | 
 | ------------- |
-| <img src="Demo_Images/History.png" width="900">  | 
+| <img src="Demo_Images/Search.png" width="900">  | 
  
 | Ethereum Trading View | 
 | ------------- |
