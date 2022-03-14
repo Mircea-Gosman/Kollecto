@@ -1,7 +1,15 @@
 <h1 align='center'>Kollecto Web Application</h1>
 <h3 align='center'>Turning Social Media Content into NFTs via the Ethereum blockchain</h3>
 
-## Outline
+## Update Winter 2022 
+
+My Software Engineering degree at McGill requires me to take <a href='https://ipfs.io'>ECSE 428</a>. As part of this class, we are required to build a project in groups of 10 developpers. Under the NF-Tea name, the project my team and I undertake is an adaptation of Kollecto. Unfortunately, it is currently being built in another repository that remains private as per the professor's requirements. 
+
+NF-Tea is a web marketplace for NFT minting and trading. Users are invited to connect their Instagram accounts to mint NFTs based on the content that they have posted. The project uses a Vue frontend, a SpringBoot Backend (to handle user-specific suggestions in the marketplace) and Solidity smart contracts (for NFT creation, storage and transactions). This project will be complete (and hopefully its repository made public) in April 2022.
+
+Thus, the current repository for Kollecto is deprecated and is unlikely to be worked upon in the future. It does, however, serve as a PoC for NF-Tea and is a demo of my frontend design and React.js current skills.
+
+## Outline 
 
 As far as our understanding of <a href='https://ethereum.org/en/nft/'>NFTs</a> goes, Non-Fungible Tokens are unique JSON files that can be used to describe digital assets. Really, we're talking about any type of content, as the DogeCoin meme NFT was <a href='https://www.nbcnews.com/pop-culture/pop-culture-news/iconic-doge-meme-nft-breaks-records-selling-roughly-4-million-n1270161'>reportedly</a> traded for 4 million USD in June 2021.
 
@@ -15,22 +23,21 @@ One could sell its post as it does with an autograph. One other could auction an
 Kollecto is a marketplace that allows NFT minting (creating) & trading based on social media content. It's intial scope targets Instagram & Youtube. The project bases itself on the Ethereum blockchain's smart contracts functionality and puts forward its own cryptocurrency: Koyn. 
 
 ## Project Structure
-The project is contained within three repostories
+The project is contained within two repostories
 
 * Kollecto-Web -> Current Repository
-* Kollecto-API -> Coming soon!
-* <a href='https://github.com/Mircea-Gosman/Kollecto-Crypto'>Kollecto-Crypto</a>
+* NF-Tea -> Private to the McGill ECSE 428 class for now :(
 
 ## Technologies in play
 | Frontend:  | Backend: | Cryptocurrency Logic: | External APIs: |
 | ------------- | ------------- | ------------- | ------------- |
-|  React JS  | Django.py | Ethereum blockchain | Youtube Data V3
-  Javascript | PostgreSQL | Web3.py | Instagram Basic Display
-  HTML | | ETH-Brownie.py | Pinata IPFS
+|  React JS  | Spring Boot | Ethereum blockchain | Youtube Data V3
+  Javascript | PostgreSQL | Ganache | Instagram Basic Display
+  HTML | Heroku | Truffle |
   CSS|   | Solidity |
-  Figma
+  Figma | | Web3 |
 
-## Progress
+## Progress 
 
 ### Frontend
 The design has been conceived in Figma & has been coded using React JS. Snippets of the functional views of the web application can be found in the following section. UI views are currently static & are awaiting development of the Kollecto-API project to be brought to life. 
