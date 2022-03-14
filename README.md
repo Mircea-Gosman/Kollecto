@@ -9,7 +9,7 @@ NF-Tea is a web marketplace for NFT minting and trading. Users are invited to co
 
 Thus, the current repository for Kollecto is deprecated and is unlikely to be worked upon in the future. It does, however, serve as a PoC for NF-Tea and is a demo of my frontend design and React.js current skills.
 
-## Outline 
+## Outline [Deprecated]
 
 As far as our understanding of <a href='https://ethereum.org/en/nft/'>NFTs</a> goes, Non-Fungible Tokens are unique JSON files that can be used to describe digital assets. Really, we're talking about any type of content, as the DogeCoin meme NFT was <a href='https://www.nbcnews.com/pop-culture/pop-culture-news/iconic-doge-meme-nft-breaks-records-selling-roughly-4-million-n1270161'>reportedly</a> traded for 4 million USD in June 2021.
 
@@ -22,13 +22,13 @@ One could sell its post as it does with an autograph. One other could auction an
 
 Kollecto is a marketplace that allows NFT minting (creating) & trading based on social media content. It's intial scope targets Instagram & Youtube. The project bases itself on the Ethereum blockchain's smart contracts functionality and puts forward its own cryptocurrency: Koyn. 
 
-## Project Structure
+## Project Structure [Deprecated]
 The project is contained within two repostories
 
 * Kollecto-Web -> Current Repository
 * NF-Tea -> Private to the McGill ECSE 428 class for now :(
 
-## Technologies in play
+## Technologies in play [Deprecated]
 | Frontend:  | Backend: | Cryptocurrency Logic: | External APIs: |
 | ------------- | ------------- | ------------- | ------------- |
 |  React JS  | Spring Boot | Ethereum blockchain | Youtube Data V3
@@ -37,7 +37,7 @@ The project is contained within two repostories
   CSS|   | Solidity |
   Figma | | Web3 |
 
-## Progress 
+## Progress [Deprecated]
 
 ### Frontend
 The design has been conceived in Figma & has been coded using React JS. Snippets of the functional views of the web application can be found in the following section. UI views are currently static & are awaiting development of the Kollecto-API project to be brought to life. 
@@ -46,7 +46,7 @@ The design has been conceived in Figma & has been coded using React JS. Snippets
 The UI is currently capable to use the Youtube Data V3 API to log in an user & fetch metadata about its uploaded videos.
 
 
-## Currently implemented user interface
+## Currently implemented user interface [Deprecated]
 
 | Login Page | 
 | ------------- |
