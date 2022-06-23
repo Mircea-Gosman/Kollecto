@@ -3,7 +3,7 @@
 
 ## Update Winter 2022 
 
-My Software Engineering degree at McGill requires me to take <a href='https://ipfs.io'>ECSE 428</a>. As part of this class, we are required to build a project in groups of 10 developpers. Under the NF-Tea name, the project my team and I undertake is an adaptation of Kollecto. Unfortunately, it is currently being built in another repository that remains private as per the professor's requirements. 
+My Software Engineering degree at McGill requires me to take <a href='https://www.mcgill.ca/study/2021-2022/courses/ecse-428'>ECSE 428</a>. As part of this class, we are required to build a project in groups of 10 developpers. Under the NF-Tea name, the project my team and I undertake is an adaptation of Kollecto, so I choose not to pursue Kollecto anymore. The repository in which my team & I collaborate for the NF-Tea project is available <a href='https://github.com/NFTEA-Winter2022/NF-TEA'>here</a>.
 
 NF-Tea is a web marketplace for NFT minting and trading. Users are invited to connect their Instagram accounts to mint NFTs based on the content that they have posted. The project uses a Vue frontend, a SpringBoot Backend (to handle user-specific suggestions in the marketplace) and Solidity smart contracts (for NFT creation, storage and transactions). This project will be complete (and hopefully its repository made public) in April 2022.
 
